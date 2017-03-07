@@ -87,7 +87,7 @@ The following is a complete example that overrides all configurable properties.
                 .withCredentials(new ProfileCredentialsProvider("myProfile"))
                 .withClientConfiguration(new ClientConfiguration().withRequestTimeout(5000))
                 .withMetricsCollector(new MyCustomMetricsCollector())
-                .withRequestHandlers(new MyCustomRequestHandler(), new MyOtherCustomRequestHandler)
+                .withRequestHandlers(new MyCustomRequestHandler(), new MyOtherCustomRequestHandler())
                 .build();
 
 Creating Async Clients
